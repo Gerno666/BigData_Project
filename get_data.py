@@ -12,9 +12,9 @@ from requests.exceptions import ReadTimeout
 import csv
 import datetime
 
-# IDs Andrea
-client_id = "fc9749424e5844aaa307f4c00aabb685"
-client_secret = "8a05f210615341019d03437d20b6fcbd"
+# IDs Niccolò
+client_id = "14173c8287014a8088fc75444dff7460"
+client_secret = "58ff1fa48e1f4c9388c6c6fa217c521d"
 
 #with open("spotify/spotify_details.yml", 'r') as stream:
 #    spotify_details = yaml.safe_load(stream)
@@ -24,8 +24,8 @@ scope = "user-library-read user-follow-read user-top-read playlist-read-private"
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="fc9749424e5844aaa307f4c00aabb685",
-    client_secret="8a05f210615341019d03437d20b6fcbd",
+    client_id="14173c8287014a8088fc75444dff7460",
+    client_secret="58ff1fa48e1f4c9388c6c6fa217c521d",
     redirect_uri="http://localhost:8080/callback/",
     scope=scope,
 ))
