@@ -13,8 +13,8 @@ import csv
 import datetime
 
 # IDs Niccolò
-client_id = "14173c8287014a8088fc75444dff7460"
-client_secret = "58ff1fa48e1f4c9388c6c6fa217c521d"
+client_id = "5e0c7ecc4cbe4129aa713741ba3efb57"
+client_secret = "6ded26cd5f534fe782872e8cf2118ecc"
 
 #with open("spotify/spotify_details.yml", 'r') as stream:
 #    spotify_details = yaml.safe_load(stream)
